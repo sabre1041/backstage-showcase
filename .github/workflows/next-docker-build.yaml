@@ -17,7 +17,7 @@ name: Next Docker Build
 on:
   push:
     branches:
-      - main
+      - oauth-user-header-build
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
