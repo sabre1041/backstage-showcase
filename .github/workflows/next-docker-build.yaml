@@ -46,7 +46,7 @@ jobs:
           registry: ${{ env.REGISTRY }}
           username: ${{ vars.QUAY_USERNAME }}
           password: ${{ secrets.QUAY_TOKEN }}
-          imageName: sabre1041/backstage-showcase
+          imageName: ablock/backstage-showcase
           imageTags: |
             type=raw,value=next
             type=sha,prefix=next-
